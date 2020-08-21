@@ -9,7 +9,7 @@ class SearchBot:
         CONSUMER_SECRET = environ['CONSUMER_SECRET']
         ACCESS_KEY = environ['ACCESS_KEY']
         ACCESS_SECRET = environ['ACCESS_SECRET']
-        
+
         def OAuth():
             try:
                 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
